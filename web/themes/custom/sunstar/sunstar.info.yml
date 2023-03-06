@@ -1,0 +1,19 @@
+name: Sunstar Theme
+type: theme
+description: 'Custom Theme for Sunstar'
+package: Other
+core_version_requirement: ^9 || ^10
+base theme: false
+version: VERSION
+libraries:
+- sunstar/global-styling
+- sunstar/fonts
+
+regions:
+  header_top: Header Top
+  header_middle: Header Middle
+  header_bottom: Header Bottom
+  menu: Main Menu
+  content: Content
+  sidebar: Sidebar
+  footer: Footer

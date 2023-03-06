@@ -1,0 +1,12 @@
+global-styling:
+  version: VERSION
+  js:
+    js/script.jss: {}
+  css:
+    theme:
+      css/style.css: {}
+  font:
+    css:
+      theme:
+      '//fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap': {type: external},
+      '//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap': {type: external}
