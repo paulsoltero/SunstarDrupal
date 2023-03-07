@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'ce2601bfc65f2e79d7ea8d4967313e4e8b88b76e',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -37,6 +37,12 @@
             'reference' => '3953f23262f2bff1919fc82183ad9acb13ff62c9',
             'dev_requirement' => false,
         ),
+        'container-interop/container-interop' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '^1.2.0',
+            ),
+        ),
         'doctrine/annotations' => array(
             'pretty_version' => '1.13.3',
             'version' => '1.13.3.0',
@@ -62,6 +68,24 @@
             'install_path' => __DIR__ . '/../../web/modules/contrib/admin_toolbar',
             'aliases' => array(),
             'reference' => '3.3.0',
+            'dev_requirement' => false,
+        ),
+        'drupal/aggregator' => array(
+            'pretty_version' => '2.0.1',
+            'version' => '2.0.1.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/aggregator',
+            'aliases' => array(),
+            'reference' => '2.0.1',
+            'dev_requirement' => false,
+        ),
+        'drupal/bootstrap_barrio' => array(
+            'pretty_version' => '5.5.9',
+            'version' => '5.5.9.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../web/themes/contrib/bootstrap_barrio',
+            'aliases' => array(),
+            'reference' => '5.5.9',
             'dev_requirement' => false,
         ),
         'drupal/core' => array(
@@ -245,12 +269,12 @@
             ),
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'ce2601bfc65f2e79d7ea8d4967313e4e8b88b76e',
             'dev_requirement' => false,
         ),
         'egulias/email-validator' => array(
@@ -287,6 +311,42 @@
             'install_path' => __DIR__ . '/../guzzlehttp/psr7',
             'aliases' => array(),
             'reference' => '67c26b443f348a51926030c83481b85718457d3d',
+            'dev_requirement' => false,
+        ),
+        'laminas/laminas-escaper' => array(
+            'pretty_version' => '2.12.0',
+            'version' => '2.12.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laminas/laminas-escaper',
+            'aliases' => array(),
+            'reference' => 'ee7a4c37bf3d0e8c03635d5bddb5bb3184ead490',
+            'dev_requirement' => false,
+        ),
+        'laminas/laminas-feed' => array(
+            'pretty_version' => '2.20.0',
+            'version' => '2.20.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laminas/laminas-feed',
+            'aliases' => array(),
+            'reference' => '508ebef6e622f2f2ce3dd0559739ffd0dfa3b938',
+            'dev_requirement' => false,
+        ),
+        'laminas/laminas-servicemanager' => array(
+            'pretty_version' => '3.15.0',
+            'version' => '3.15.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laminas/laminas-servicemanager',
+            'aliases' => array(),
+            'reference' => '65910ef6a8066b0369fab77fbec9e030be59c866',
+            'dev_requirement' => false,
+        ),
+        'laminas/laminas-stdlib' => array(
+            'pretty_version' => '3.16.1',
+            'version' => '3.16.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laminas/laminas-stdlib',
+            'aliases' => array(),
+            'reference' => 'f4f773641807c7ccee59b758bfe4ac4ba33ecb17',
             'dev_requirement' => false,
         ),
         'masterminds/html5' => array(
@@ -356,6 +416,7 @@
             'dev_requirement' => false,
             'provided' => array(
                 0 => '1.1|2.0',
+                1 => '^1.1 || ^2.0',
             ),
         ),
         'psr/event-dispatcher' => array(
@@ -703,6 +764,15 @@
             'reference' => 'e8e6a1d59e050525f27a1f530aa9703423cb7f57',
             'dev_requirement' => false,
         ),
+        'twbs/bootstrap' => array(
+            'pretty_version' => 'v5.2.3',
+            'version' => '5.2.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../twbs/bootstrap',
+            'aliases' => array(),
+            'reference' => 'cb021439c683d9805e2864c58095b92d405e9b11',
+            'dev_requirement' => false,
+        ),
         'twig/twig' => array(
             'pretty_version' => 'v3.5.1',
             'version' => '3.5.1.0',
@@ -711,6 +781,12 @@
             'aliases' => array(),
             'reference' => 'a6e0510cc793912b451fd40ab983a1d28f611c15',
             'dev_requirement' => false,
+        ),
+        'twitter/bootstrap' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => 'v5.2.3',
+            ),
         ),
     ),
 );
