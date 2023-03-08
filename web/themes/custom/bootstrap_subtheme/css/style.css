@@ -32,6 +32,6 @@ body {
   padding: 25px 150px;
 }
 
-.menu_header {
-  background-color: black;
+#block-bootstrap-subtheme-main-menu ul li a{
+  font-family: 'Arvo', serif;
 }

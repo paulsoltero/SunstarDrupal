@@ -6,6 +6,11 @@ global-styling:
     component:
       css/style.css: {}
       css/colors.css: {}
+  font:
+    css:
+      theme:
+      '//fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap': {type: external},
+      '//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap': {type: external}
 bootstrap:
   js:
     /libraries/popper.js/dist/umd/popper.min.js: { weight: -19 }
