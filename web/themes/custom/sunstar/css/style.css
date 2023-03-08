@@ -40,15 +40,6 @@ main {
   font-family: 'Roboto', sans-serif;
 }
 
-footer {
-  height: 350px;
-  width: 100%;
-  background-color: white;
-  border-top: #ffd20e 3px solid;
-  padding: 25px 150px;
-  font-family: 'Roboto', sans-serif;
-}
-
 #block-sunstar-site-branding img {
   width:auto;
   height: 35px;
@@ -110,5 +101,40 @@ article a {
   color: #0060af;
 }
 
+/**/
+.col {
+  float: left;
+  width: 15%;
+  padding: 10px;
+}
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/*Footer*/
+
+footer {
+  height: 350px;
+  width: 100%;
+  background-color: white;
+  border-top: #ffd20e 3px solid;
+  padding: 25px 150px;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer a {
+  font-size: 16px;
+  line-height: 40px;
+  font-family: Roboto Medium;
+  color: #adadad;
+}
 
