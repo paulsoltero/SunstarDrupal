@@ -1,0 +1,37 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+body {
+  margin:0;
+  overflow-x: hidden;
+}
+
+#navbar-top {
+  padding: 8px 150px 0px 150px;
+  color: #ffd20e;
+  font-size: 12px;
+}
+
+#navbar-main {
+  background-color: #ffd20e;
+  padding: 25px 150px;
+}
+
+#navbar-main img {
+  height: 50px;
+  width: auto;
+}
+
+#main {
+  padding: 25px 150px;
+}
+
+.site-footer__bottom {
+  padding: 25px 150px;
+}
+
+#block-bootstrap-subtheme-main-menu ul li a{
+  font-family: 'Arvo', serif;
+}
