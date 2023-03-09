@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'ce2601bfc65f2e79d7ea8d4967313e4e8b88b76e',
+        'reference' => 'fb448e351d4e6f290077bafe8e8f701fe186237d',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -268,13 +268,31 @@
                 0 => '10.0.4',
             ),
         ),
+        'drupal/ctools' => array(
+            'pretty_version' => '4.0.3',
+            'version' => '4.0.3.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/ctools',
+            'aliases' => array(),
+            'reference' => '4.0.3',
+            'dev_requirement' => false,
+        ),
+        'drupal/modal_page' => array(
+            'pretty_version' => '5.0.1',
+            'version' => '5.0.1.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/modal_page',
+            'aliases' => array(),
+            'reference' => '5.0.1',
+            'dev_requirement' => false,
+        ),
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'ce2601bfc65f2e79d7ea8d4967313e4e8b88b76e',
+            'reference' => 'fb448e351d4e6f290077bafe8e8f701fe186237d',
             'dev_requirement' => false,
         ),
         'egulias/email-validator' => array(
@@ -415,8 +433,8 @@
         'psr/container-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.1|2.0',
-                1 => '^1.1 || ^2.0',
+                0 => '^1.1 || ^2.0',
+                1 => '1.1|2.0',
             ),
         ),
         'psr/event-dispatcher' => array(

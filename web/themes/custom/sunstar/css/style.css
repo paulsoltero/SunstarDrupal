@@ -120,6 +120,24 @@ article a {
   }
 }
 
+/*Modal*/
+.modal-header h4 {
+  font-weight: 500;
+}
+
+.modal-buttons button {
+  background-color: #dc3545;
+  color: white;
+  font-size: 17px;
+}
+
+.modal-body a {
+  text-decoration: underline;
+}
+
+.modal-body p {
+  font-size: 17px;
+}
 /*Footer*/
 
 footer {
@@ -132,9 +150,13 @@ footer {
 }
 
 footer a {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 40px;
   font-family: Roboto Medium;
+  color: #adadad;
+}
+
+footer a:hover {
   color: #adadad;
 }
 
