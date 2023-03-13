@@ -104,8 +104,8 @@ article a {
 /**/
 .col {
   float: left;
-  width: 15%;
-  padding: 10px;
+  width: 19%;
+  padding: 10px 5px;
 }
 
 .row:after {
@@ -138,14 +138,13 @@ article a {
 .modal-body p {
   font-size: 17px;
 }
-/*Footer*/
 
+/*Footer*/
 footer {
   height: 350px;
-  width: 100%;
   background-color: white;
   border-top: #ffd20e 3px solid;
-  padding: 25px 150px;
+  padding: 10px 150px 25px 150px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -154,9 +153,29 @@ footer a {
   line-height: 40px;
   font-family: Roboto Medium;
   color: #adadad;
+  margin-left: -40px;
 }
 
 footer a:hover {
   color: #adadad;
 }
 
+.footer-title {
+  font-family: 'Arvo', serif;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 15px;
+}
+
+.footer-row {
+  border-top: 1px solid #f4f4f4;
+  color: #adadad;
+  font-size: 15px;
+}
+
+.footer-col {
+  width: 49%;
+  display: inline-block;
+  padding:20px 0px;
+}
